@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		6942888D21CC3CBC004785FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6942888C21CC3CBC004785FF /* AppDelegate.swift */; };
-		6942888F21CC3CBC004785FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6942888E21CC3CBC004785FF /* ViewController.swift */; };
+		6942888F21CC3CBC004785FF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6942888E21CC3CBC004785FF /* MapViewController.swift */; };
 		6942889221CC3CBC004785FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6942889021CC3CBC004785FF /* Main.storyboard */; };
 		6942889421CC3CBF004785FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6942889321CC3CBF004785FF /* Assets.xcassets */; };
 		6942889721CC3CBF004785FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6942889521CC3CBF004785FF /* LaunchScreen.storyboard */; };
+		6942889F21CC3D6D004785FF /* PrizeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6942889E21CC3D6D004785FF /* PrizeObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6942888921CC3CBC004785FF /* AR Quest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Quest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6942888C21CC3CBC004785FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6942888E21CC3CBC004785FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6942888E21CC3CBC004785FF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		6942889121CC3CBC004785FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6942889321CC3CBF004785FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6942889621CC3CBF004785FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6942889821CC3CBF004785FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6942889E21CC3D6D004785FF /* PrizeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				6942888C21CC3CBC004785FF /* AppDelegate.swift */,
-				6942888E21CC3CBC004785FF /* ViewController.swift */,
+				6942888E21CC3CBC004785FF /* MapViewController.swift */,
 				6942889021CC3CBC004785FF /* Main.storyboard */,
 				6942889321CC3CBF004785FF /* Assets.xcassets */,
 				6942889521CC3CBF004785FF /* LaunchScreen.storyboard */,
 				6942889821CC3CBF004785FF /* Info.plist */,
+				6942889E21CC3D6D004785FF /* PrizeObject.swift */,
 			);
 			path = "AR Quest";
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6942888F21CC3CBC004785FF /* ViewController.swift in Sources */,
+				6942889F21CC3D6D004785FF /* PrizeObject.swift in Sources */,
+				6942888F21CC3CBC004785FF /* MapViewController.swift in Sources */,
 				6942888D21CC3CBC004785FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
